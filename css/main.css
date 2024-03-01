@@ -70,12 +70,12 @@ img {
     max-width: 768px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1383px) {
   .container {
-    max-width: 1200px;
+    max-width: 1383px;
   }
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
