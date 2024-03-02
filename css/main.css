@@ -197,7 +197,10 @@ body {
     padding-bottom: 147px;
   }
   .card__list {
-    margin: 0 auto;
+    padding: 0 129px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .card__text {
     max-width: 276px;

@@ -97,7 +97,8 @@ border: 1px solid $hoverColor;
         padding-top: 147px;
         padding-bottom: 147px;
         &__list{
-            margin: 0 auto;
+            padding: 0 129px;
+            justify-content: space-evenly;
         }
         &__text{
             max-width: 276px;
