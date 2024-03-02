@@ -89,7 +89,7 @@ body {
   -webkit-box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.11);
           box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.11);
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 75px;
   width: 290px;
 }
 .card__item:nth-child(n+3) {
@@ -191,7 +191,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1383px) {
   .card {
     padding-top: 147px;
     padding-bottom: 147px;
