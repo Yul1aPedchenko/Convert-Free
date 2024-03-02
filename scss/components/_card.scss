@@ -96,6 +96,9 @@ border: 1px solid $hoverColor;
     .card{
         padding-top: 147px;
         padding-bottom: 147px;
+        &__list{
+            margin: 0 auto;
+        }
         &__text{
             max-width: 276px;
         }

@@ -196,6 +196,9 @@ body {
     padding-top: 147px;
     padding-bottom: 147px;
   }
+  .card__list {
+    margin: 0 auto;
+  }
   .card__text {
     max-width: 276px;
   }
