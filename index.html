@@ -21,25 +21,80 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a class="mobile-logo" href="./index.html">
-          <svg>
-            <use href="./img/symbol-defs.svg#"></use>
-          </svg>
-        </a>
+      <div class="header__mobile-menu">
+        <img class="logo" src="./img/logo.png" alt="#" />
         <button
           class="menu-button-open js-open-menu"
           type="button"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg class="menu-button__close">
+          <svg class="menu-button__open" width="40" height="40">
             <use
               class="icon-cross"
-              href="img/portfolio/symbol-defs-mobile-menu.svg#icon-mobile-open"
+              href="./img/symbol-defs.svg#icon-burger-menu"
             ></use>
           </svg>
         </button>
+        <div class="menu-container js-menu-container">
+          <button class="menu-button-close js-close-menu">
+            <svg class="menu-button__close" width="50" height="50">
+              <use href="./img/symbol-defs.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+          <div class="menu-box">
+            <div class="mobile-menu">
+              <nav>
+                <img class="logo-menu" src="./img/logo.png" alt="#" />
+                <ul class="mobile-menu__list">
+                  <li class="mobile-menu__item">
+                    <select class="mini-list" name="languages" id="lang">
+                      <option>Converters</option>
+                      <option>URL</option>
+                      <option>Google Drive</option>
+                      <option>Dropbox</option>
+                    </select>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a class="mobile-menu__file" href="#">My Files</a>
+                  </li>
+                </ul>
+              </nav>
+              <ul class="mobile-menu__verlist">
+                <li class="mobile-menu__verification">
+                  <a href="#" class="mobile-menu__login">Login</a>
+                </li>
+                <li class="mobile-menu__contact">
+                  <a href="#" class="mobile-menu__sign">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-desktop container">
+        <img class="logo" src="./img/logo.png" alt="#"/>
+        <ul class="mobile-menu__list-desktop">
+          <li class="mobile-menu__item">
+            <select class="mini-list-desktop" name="languages" id="lang">
+              <option>Converters</option>
+              <option>URL</option>
+              <option>Google Drive</option>
+              <option>Dropbox</option>
+            </select>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__file-desktop" href="#">My Files</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__verlist-desktop">
+          <li class="mobile-menu__verification">
+            <a href="#" class="mobile-menu__login-desktop">Login</a>
+          </li>
+          <li class="mobile-menu__contact">
+            <a href="#" class="mobile-menu__sign-desktop">Sign Up</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -52,7 +107,11 @@
               </svg>
             </div>
             <h3 class="card__title">300+ formats supported</h3>
-            <p class="card__text">We support more than 25600 different conversions between more than 300 different <a href="#" class="card__link">file formats</a>. More than any other converter.</p>
+            <p class="card__text">
+              We support more than 25600 different conversions between more than
+              300 different <a href="#" class="card__link">file formats</a>.
+              More than any other converter.
+            </p>
           </li>
           <li class="card__item">
             <div class="card__icon-wrap">
@@ -61,7 +120,11 @@
               </svg>
             </div>
             <h3 class="card__title">Fast and easy</h3>
-            <p class="card__text">Just drop your files on the page, choose an output format and click "Convert" button. Wait a little for the process to complete. We aim to do all our conversions in under 1-2 minutes.</p>
+            <p class="card__text">
+              Just drop your files on the page, choose an output format and
+              click "Convert" button. Wait a little for the process to complete.
+              We aim to do all our conversions in under 1-2 minutes.
+            </p>
           </li>
           <li class="card__item">
             <div class="card__icon-wrap">
@@ -70,7 +133,10 @@
               </svg>
             </div>
             <h3 class="card__title">In the cloud</h3>
-            <p class="card__text">All conversions take place in the cloud and will not consume any capacity from your computer.</p>
+            <p class="card__text">
+              All conversions take place in the cloud and will not consume any
+              capacity from your computer.
+            </p>
           </li>
           <li class="card__item">
             <div class="card__icon-wrap">
@@ -79,7 +145,11 @@
               </svg>
             </div>
             <h3 class="card__title">Custom settings</h3>
-            <p class="card__text">Most conversion types support advanced options. For example with a video converter you can choose quality, aspect ratio, codec and other settings, rotate and flip.</p>
+            <p class="card__text">
+              Most conversion types support advanced options. For example with a
+              video converter you can choose quality, aspect ratio, codec and
+              other settings, rotate and flip.
+            </p>
           </li>
           <li class="card__item">
             <div class="card__icon-wrap">
@@ -88,7 +158,11 @@
               </svg>
             </div>
             <h3 class="card__title">Security guaranteed</h3>
-            <p class="card__text">We delete uploaded files instantly and converted ones after 24 hours. No one has access to your files and privacy is 100% guaranteed. Read more about security.</p>
+            <p class="card__text">
+              We delete uploaded files instantly and converted ones after 24
+              hours. No one has access to your files and privacy is 100%
+              guaranteed. Read more about security.
+            </p>
           </li>
           <li class="card__item">
             <div class="card__icon-wrap">
@@ -97,7 +171,10 @@
               </svg>
             </div>
             <h3 class="card__title">All devices supported</h3>
-            <p class="card__text">Convertio is browser-based and works for all platforms. There is no need to download and install any software.</p>
+            <p class="card__text">
+              Convertio is browser-based and works for all platforms. There is
+              no need to download and install any software.
+            </p>
           </li>
         </ul>
         <div class="card__btn-wrap">
@@ -105,5 +182,7 @@
         </div>
       </section>
     </main>
+
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>
