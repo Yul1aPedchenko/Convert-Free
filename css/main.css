@@ -345,6 +345,10 @@ body {
   border-radius: 6px;
   border: 1px solid #1575bb;
 }
+.card__btn:hover {
+  color: #ffffff;
+  background-color: #1575bb;
+}
 
 @media screen and (min-width: 480px) {
   .card {
@@ -400,5 +404,106 @@ body {
   }
   .card__text {
     max-width: 276px;
+  }
+}
+.hero__wrap {
+  border: 1px dashed #958f8b;
+  width: 290px;
+  height: 107px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.hero__icon-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 22px;
+}
+.hero__icon {
+  width: 40px;
+  height: 40px;
+  fill: #bdcbcb;
+}
+.hero__subtext {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 183%;
+  color: #605f5f;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.hero__browse {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 183%;
+  color: #1575bb;
+}
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+.hero__item {
+  cursor: pointer;
+}
+.hero__app {
+  fill: #000;
+  width: 17px;
+  height: 15px;
+  -webkit-transition: fill 250ms ease-in-out;
+  transition: fill 250ms ease-in-out;
+}
+.hero__link {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 183%;
+  color: #251B00;
+  padding-left: 8px;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+.hero__item:hover .hero__link {
+  color: #1575bb;
+}
+.hero__item:hover .hero__app {
+  fill: #1575bb;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__wrap {
+    width: 450px;
+    height: 107px;
+  }
+  .hero__list {
+    margin-top: 30px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .hero__link {
+    font-size: 15px;
+    line-height: 147%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__wrap {
+    width: 560px;
+    height: 132px;
+  }
+  .hero__icon-wrap {
+    margin-top: 31px;
+  }
+  .hero__icon {
+    width: 47px;
+    height: 47px;
+  }
+  .hero__subtext {
+    margin-bottom: 32px;
   }
 }/*# sourceMappingURL=main.css.map */

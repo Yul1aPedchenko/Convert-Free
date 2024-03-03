@@ -1,0 +1,101 @@
+.hero {
+  &__wrap {
+    border: 1px dashed $borderColor;
+    width: 290px;
+    height: 107px;
+    background-color: $mainBgColor;
+    margin: 0 auto;
+  }
+  &__icon-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+  }
+  &__icon {
+    width: 40px;
+    height: 40px;
+    fill: #bdcbcb;
+  }
+  &__subtext {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 183%;
+    color: $textColor;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  &__browse {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 183%;
+    color: $hoverColor;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  &__item{
+    cursor: pointer;
+  }
+  &__app {
+    fill: $firstlyTextColor;
+    width: 17px;
+    height: 15px;
+    transition: fill 250ms ease-in-out;
+  }
+  &__link {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 183%;
+    color: $linkColor;
+    padding-left: 8px;
+    transition: color 250ms ease-in-out;
+  }
+&__item:hover {
+    .hero__link{
+      color: $hoverColor;
+    }
+    .hero__app{
+      fill: $hoverColor;
+    }
+  }
+}
+@media screen and (min-width: 480px){
+  .hero {
+    &__wrap {
+      width: 450px;
+      height: 107px;
+    }
+    &__list{
+        margin-top: 30px;
+        justify-content: space-evenly;
+    }
+    &__link{
+        font-size: 15px;
+        line-height: 147%;
+    }
+  }
+}
+@media screen and (min-width: 768px){
+    .hero{
+        &__wrap{
+            width: 560px;
+            height: 132px;
+        }
+        &__icon-wrap{
+            margin-top: 31px;
+        }
+        &__icon{
+            width: 47px;
+            height: 47px;
+        }
+        &__subtext{
+            margin-bottom: 32px;
+        }
+    }
+}
+// @media screen and (min-width:1200px){
+//     .hero{
+//   }
+// }
