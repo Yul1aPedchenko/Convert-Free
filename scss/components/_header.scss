@@ -20,6 +20,11 @@
   line-height: 147%;
   color: $firstlyTextColor;
   margin-left: 80px;
+  transition-duration: 250ms;
+}
+.mobile-menu__file-desktop:hover,
+.mobile-menu__login-desktop:hover{
+  color: $hoverColor;
 }
 .mobile-menu__login-desktop {
   font-weight: 400;
@@ -27,6 +32,7 @@
   line-height: 147%;
   color: $firstlyTextColor;
   margin-left: 30px;
+  transition-duration: 250ms;
 }
 .mobile-menu__sign-desktop {
   font-weight: 400;
@@ -37,12 +43,17 @@
   border: 1px solid $hoverColor;
   border-radius: 6px;
   margin-left: 30px;
+  transition-duration: 250ms;
 }
 .mobile-menu__verlist-desktop {
   display: flex;
 }
 .mobile-menu__list-desktop {
   display: flex;
+}
+.mobile-menu__sign-desktop:hover{
+  background-color: $hoverColor;
+  color: $mainBgColor;
 }
 @media screen and (max-width: 767px) {
   .header-desktop {

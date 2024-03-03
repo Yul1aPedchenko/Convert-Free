@@ -1,4 +1,6 @@
 .hero {
+  margin-top: 30px;
+
   &__wrap {
     border: 1px dashed $borderColor;
     width: 290px;
@@ -99,3 +101,101 @@
 //     .hero{
 //   }
 // }
+.hero__convert{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 129%;
+  background: linear-gradient(180deg, #00599a 0%, #0668af 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 15px;
+}
+.hero__free{
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 144%;
+  background: linear-gradient(180deg, #8c0a38 0%, #f20055 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero__text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 122%;
+  color: #313131;
+}
+.logo{
+  margin-left: 15px;
+}
+.hero__title{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 129%;
+  background: linear-gradient(180deg, #014475 0%, $firstlyTextColor 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.background-hero{
+  width: 290px;
+  height: 140px;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  .hero{
+    margin-top: 39px;
+  }
+  .background-hero{
+    margin-top: 33px;
+    width: 450px;
+    height: 218px;
+    margin-bottom: 75px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero{
+    margin-top: 62px;
+  }
+  .background-hero{
+    margin-top: 33px;
+    width: 738px;
+    height: 358px;
+    margin-bottom: 38px;
+    margin-top: 22px;
+  }
+  .hero__title{
+    margin-top: 14px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero{
+    margin-top: 154px;
+  }
+  .hero__convert{
+    font-size: 70px;
+    line-height: 89%;
+  }
+  .hero__free{
+    font-size: 65px;
+    line-height: 95%;
+  }
+  .hero__title{
+    font-size: 65px;
+    line-height: 95%;
+    margin-bottom: 18px;
+  }
+  .background-hero{
+    margin-top: 33px;
+    width: 767px;
+    height: 372.85px;
+    margin-bottom: 38px;
+    margin-top: 22px;
+  }
+  .logo{
+    margin-left: 0;
+  }
+}
