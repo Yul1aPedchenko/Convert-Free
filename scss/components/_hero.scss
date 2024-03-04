@@ -97,10 +97,17 @@
         }
     }
 }
-// @media screen and (min-width:1200px){
-//     .hero{
-//   }
-// }
+@media screen and (min-width:1200px){
+    .hero{
+      &__wrap{
+        margin-left: 56px;
+      }
+      &__list{
+         max-width: 395px;
+         margin-left: 110px;
+      }
+  }
+}
 .hero__convert{
   font-weight: 700;
   font-size: 48px;

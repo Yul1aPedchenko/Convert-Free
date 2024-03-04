@@ -527,6 +527,15 @@ body {
     margin-bottom: 32px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero__wrap {
+    margin-left: 56px;
+  }
+  .hero__list {
+    max-width: 395px;
+    margin-left: 110px;
+  }
+}
 .hero__convert {
   font-weight: 700;
   font-size: 48px;
