@@ -1,0 +1,135 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color: $footerBgColor;
+  &__wrap {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  &__logo-wrap {
+    position: relative;
+    padding-bottom: 33px;
+    padding-right: 13px;
+  }
+  &__logo {
+    width: 199px;
+  }
+  &__logo-text {
+    position: absolute;
+    color: $secondaryTextColor;
+    font-size: 15px;
+    line-height: 147%;
+    left: 52px;
+    top: 33px;
+  }
+  &__list-wrap {
+    margin: 35px 0;
+  }
+  &__list {
+    text-align: center;
+  }
+  &__list:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  &__item {
+    margin-top: 10px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 147%;
+    color: $secondaryTextColor;
+  }
+}
+.footer__link {
+  font-size: 15px;
+  line-height: 147%;
+  color: $mainBgColor;
+  &:hover {
+    color: $hoverColor;
+  }
+}
+.footer__rights {
+  font-size: 13px;
+  line-height: 169%;
+  color: $secondaryTextColor;
+  margin: 0 auto;
+  &-wrap {
+    padding-top: 20px;
+    border-top: 1px solid #39475a;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-top: 90px;
+    &__wrap {
+      padding-left: 70px;
+      padding-right: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__logo-wrap {
+      margin: 0 auto;
+    }
+    &__list-wrap {
+      margin-top: 60px;
+      margin-bottom: 90px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__list {
+      text-align: left;
+    }
+    &__list:not(:last-child) {
+      margin-bottom: 0;
+    }
+    &__list:nth-child(-n + 2) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__wrap {
+    padding-left: 166px;
+    padding-right: 166px;
+  }
+  .footer__list:nth-child(odd) {
+    margin-right: 107px;
+  }
+}
+
+@media screen and (min-width: 1383px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 19px;
+    &__wrap {
+      align-items: start;
+      padding: 0;
+      justify-content: space-evenly;
+      margin-bottom: 70px;
+    }
+    &__logo-wrap {
+      margin: 0 0;
+    }
+    &__list-wrap {
+      margin: 0 0;
+    }
+    &__list:nth-child(-n + 2) {
+      margin-bottom: 0;
+    }
+    .footer__list:nth-child(odd) {
+      margin-right: 107px;
+    }
+    &__list:not(:last-child) {
+      margin-right: 107px;
+    }
+  }
+  .footer__rights-wrap {
+    padding-top: 19px;
+  }
+}
