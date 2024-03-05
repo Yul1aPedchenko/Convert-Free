@@ -114,6 +114,15 @@ body {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
+.logo-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .menu-button-open {
   position: absolute;
   right: 30px;
@@ -527,7 +536,7 @@ body {
     margin-bottom: 32px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1383px) {
   .hero__wrap {
     margin-left: 56px;
   }

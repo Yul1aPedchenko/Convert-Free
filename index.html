@@ -22,7 +22,13 @@
   <body>
     <header class="header">
       <div class="header__mobile-menu">
-        <img class="logo" src="./img/logo.png" alt="#" />
+        <picture>
+          <source
+            srcset="./img/logo.png 1x, ./img/logo@2.png 2x"
+            type="image/png"
+          />
+          <img class="logo" src="./img/logo.png" alt="#" />
+        </picture>
         <button
           class="menu-button-open js-open-menu"
           type="button"
@@ -45,7 +51,13 @@
           <div class="menu-box">
             <div class="mobile-menu">
               <nav>
-                <img class="logo-menu" src="./img/logo.png" alt="#" />
+                <picture class="logo-mobile">
+                  <source
+                    srcset="./img/logo.png 1x, ./img/logo@2.png 2x"
+                    type="image/png"
+                  />
+                  <img src="./img/logo.png" alt="#" />
+                </picture>
                 <ul class="mobile-menu__list">
                   <li class="mobile-menu__item">
                     <select class="mini-list" name="languages" id="lang">
@@ -73,7 +85,14 @@
         </div>
       </div>
       <div class="header-desktop container">
-        <img class="logo" src="./img/logo.png" alt="#" />
+          <picture class="activity__list-img">
+            <source
+              srcset="./img/logo.png 1x, ./img/logo@2.png 2x"
+              type="image/png"
+            />
+            <img class="logo" src="./img/logo.png" alt="#" />
+          </picture>
+        </picture>
         <ul class="mobile-menu__list-desktop">
           <li class="mobile-menu__item">
             <select class="mini-list-desktop" name="languages" id="lang">
@@ -107,7 +126,13 @@
             Allows users to find an all in one converter for videos, documents,
             eBooks, <br />images, audio, PDF, software, and more.
           </p>
-          <img class="background-hero" src="./img/background.png" alt="#" />
+          <picture>
+            <source
+              srcset="./img/background.png 1x, ./img/background@2x.png 2x"
+              type="image/png"
+            />
+            <img class="background-hero" src="./img/background.png" alt="#" />
+          </picture>
           <div class="hero__wrap">
             <div class="hero__icon-wrap">
               <svg class="hero__icon">
@@ -228,7 +253,13 @@
       <div class="container footer__wrap">
         <div class="footer__logo-wrap">
           <a href="index.html" class="logo-wrap">
-            <img src="./img/logo.png" alt="logo" class="footer__logo" />
+            <picture class="footer__logo-wrap">
+              <source
+                srcset="./img/logo.png 1x, ./img/logo@2.png 2x"
+                type="image/png"
+              />
+              <img class="logo" src="./img/logo.png" alt="#" />
+            </picture>
           </a>
 
           <span class="footer__logo-text">Online Converter Free</span>
