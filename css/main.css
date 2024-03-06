@@ -538,7 +538,7 @@ body {
 }
 @media screen and (min-width: 1383px) {
   .hero__wrap {
-    margin-left: 0 0;
+    margin: 0 0;
   }
   .hero__list {
     max-width: 395px;
