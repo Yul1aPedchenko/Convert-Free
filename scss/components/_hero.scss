@@ -100,11 +100,12 @@
 @media screen and (min-width:1383px){
     .hero{
       &__wrap{
-        margin-left: 56px;
+        margin: 0 0;
+        margin-left: 0;
       }
       &__list{
         max-width: 395px;
-        margin-left: 125px;
+        margin-left: 82px;
       }
   }
 }

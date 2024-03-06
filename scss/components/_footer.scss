@@ -45,6 +45,7 @@
   font-size: 15px;
   line-height: 147%;
   color: $mainBgColor;
+  transition: color 250ms ease-in-out;
   &:hover {
     color: $hoverColor;
   }

@@ -538,11 +538,12 @@ body {
 }
 @media screen and (min-width: 1383px) {
   .hero__wrap {
-    margin-left: 56px;
+    margin: 0 0;
+    margin-left: 0;
   }
   .hero__list {
     max-width: 395px;
-    margin-left: 125px;
+    margin-left: 82px;
   }
 }
 .hero__convert {
@@ -703,6 +704,8 @@ body {
   font-size: 15px;
   line-height: 147%;
   color: #ffffff;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
 }
 .footer__link:hover {
   color: #1575bb;
