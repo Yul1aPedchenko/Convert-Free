@@ -541,7 +541,8 @@ body {
     margin-left: 56px;
   }
   .hero__list {
-    padding: 151px 387px;
+    max-width: 395px;
+    margin-left: 125px;
   }
 }
 .hero__convert {
