@@ -538,11 +538,11 @@ body {
 }
 @media screen and (min-width: 1383px) {
   .hero__wrap {
-    margin-left: 56px;
+    margin-left: 0 0;
   }
   .hero__list {
     max-width: 395px;
-    margin-left: 125px;
+    margin-left: 82px;
   }
 }
 .hero__convert {
