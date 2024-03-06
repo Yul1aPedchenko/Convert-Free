@@ -539,6 +539,7 @@ body {
 @media screen and (min-width: 1383px) {
   .hero__wrap {
     margin: 0 0;
+    margin-left: 0;
   }
   .hero__list {
     max-width: 395px;
@@ -703,6 +704,8 @@ body {
   font-size: 15px;
   line-height: 147%;
   color: #ffffff;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
 }
 .footer__link:hover {
   color: #1575bb;
